@@ -1,0 +1,775 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+/*========================================
+ navbar section start here  
+ =========================================*/
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    z-index: 999;
+}
+
+nav .logo{
+    padding: 25px 20px 0px  20px;
+   
+}
+nav .nav-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav .nav-items li{
+    list-style: none;
+    display: inline;
+    margin: 1px;
+}
+nav .nav-items li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 15px 22px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+nav .nav-items li a:hover{
+    background-color: #ffc61a;
+    border-radius: 15px;
+    padding: 7px 15px;
+    color: black;
+    transition: .4s all linear;
+}
+nav .nav-items li .active{
+    background-color: #ffc61a;
+    border-radius: 15px;
+    padding: 7px 15px;
+    color: black;
+   
+}
+
+/* navbar for mobile device  styling start here*/
+.side-bar{
+    font-size: 25px;
+    color: white;
+    display: none;
+    cursor: pointer;
+}
+.side-bar i.active:before{
+    content: "\f00d";
+    font-size: 25px;
+    font-weight: bold;
+}
+/* navbar for mobile device  styling end here*/
+
+
+/*========================================
+ navbar section end here  
+ =========================================*/
+
+
+
+
+
+
+
+ /*=======================================
+  home section start here 
+  =======================================*/
+.home{
+    background: url('img/beg.jpg') no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 750px;
+   
+}
+
+.home-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+.home-section .home-text{
+    padding: 50px 0px;
+    text-align: center;
+}
+
+.home-section .home-text h3{
+    color: #ffc61a;
+    font-size: 45px;
+    font-weight: 500;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+
+}
+.home-section .home-text h1{
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    padding: 10px 0px;
+    font-family: 'Lato', sans-serif;
+}
+.home-section .home-text h5{
+    color: white;
+    font-size: 18px;
+    letter-spacing: 9px;
+    font-family: 'Lato', sans-serif;
+}
+
+.home-img img{
+  
+    width: 100%;
+    z-index: 999;
+}
+ /*=======================================
+  home section end here 
+  =======================================*/
+
+
+
+
+
+
+
+  /*=====================================
+   form section start here  
+   ====================================*/
+.form-section{
+    background-color: #ffc61a;
+    width: 100%;
+    height: auto;
+    padding: 120px 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+
+}
+
+.form-section .form-info{
+    padding-top: 50px;
+    flex-basis: 42%;
+}
+.form-section .form-info h2{
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 5px 0px;
+    font-family: 'Lato', sans-serif;
+}
+.form-section .form-info h1{
+    font-size: 40px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding: 5px 0px;
+    font-family: 'Lato', sans-serif;
+}
+.form-section .form-info p{
+    padding: 30px 0px;
+}
+.form-section .form-info a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 10px 25px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Bebas Neue', cursive;
+    cursor: pointer;
+}
+.form-section .form-info a:hover{
+    background-color: white;
+    color: black;
+    outline: 1px solid black;
+    transition: .5s all ease;
+    
+}
+.form-section .form{
+    padding-top: 20px;
+    flex-basis: 40%;
+}
+ /*=======================================
+    form section end here 
+  =======================================*/
+
+
+
+
+
+
+/*=======================================
+  our trip section start here 
+=======================================*/
+.our-trip{
+    width: 95%;
+    height: auto;
+    padding: 40px 80px;
+    margin: 0 auto;
+}
+.our-trip .trip-body{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 100px;
+}
+.our-trip .trip-head{
+    text-align: center;
+    padding: 20px 20px;
+}
+.our-trip .trip-head h2{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #ffc61a;
+}
+.our-trip .trip-head h1{
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+   
+}
+
+.our-trip .trip{
+    width: 30%;
+    height: 400px;
+    text-align: center;
+    padding: 10px 20px;
+    background-color: #f5f4f2;
+}
+.our-trip #trip2{
+    background-color: #ffc61a;
+    position: relative;
+}
+.trip-inner-img{
+    position: absolute;
+    right: 0;
+    bottom: -6px;
+    
+}
+.trip-inner-img img{
+    width: 100%;
+    height: 100%;
+}
+.our-trip #trip2  a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 10px 25px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Bebas Neue', cursive;
+    cursor: pointer;
+    
+}
+.our-trip #trip2  a:hover{
+    background-color: white;
+    color: black;
+    outline: 1px solid black;
+    transition: .5s all ease;
+    
+}
+.our-trip #trip2 h2{
+    color: black;
+}
+.our-trip .trip h1{
+    font-size: 25px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+}
+.our-trip .trip img{
+    width: 100%;
+   margin-top: -85px;
+}
+.our-trip .trip p{
+    padding: 20px 0px;
+
+}
+
+.our-trip .trip h2{
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 0px;
+    color: #ffc61a;
+}
+.our-trip .trip a{
+    text-decoration: none;
+    color: white;
+    background-color: #ffc61a;
+    padding: 10px 25px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Bebas Neue', cursive;
+    cursor: pointer;
+}
+.our-trip .trip a:hover{
+    background-color: white;
+    color: #ffc61a;
+    outline: 1px solid #ffc61a;
+    transition: .5s all ease;
+}
+
+/*=======================================
+  our trip section start here 
+=======================================*/
+
+
+
+
+
+
+
+
+/*=======================================
+  best section start here 
+=======================================*/
+.best-section{
+    width: 100%;
+    height: auto;
+    padding: 80px 20px;
+    margin-top: 100px;
+    background: url('img/best.png') no-repeat;
+    background-size: cover;
+}
+
+.best-section .best-head{
+    width: 100%;
+    padding: 50px 20px;
+    text-align: center;
+}
+.best-section .best-head h2{
+    color: #ffc61a;
+    font-size: 25px;
+    font-weight: bold;
+   font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+}
+.best-section .best-head h1{
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.best-section .best-body{
+    width: 85%;
+    margin:  0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+   
+}
+.best-section .best-body .best-items{
+    flex-basis: 40%;
+    display: flex;
+    align-items: center;
+    padding: 30px 0px;    
+}
+.best-section .best-body .best-items img{
+    width: 65px;
+}
+.best-section .best-body .best-items .best-text h1{
+    color: #ffc61a;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 0px;
+    font-family: 'Lato', sans-serif;
+
+}
+.best-section .best-body .best-items .best-text{
+    padding-left: 20px;
+}
+
+.best-section .best-body .best-items .best-text p{
+    color: white;
+    padding: 5px 0px;
+}
+.best-section .best-btn{
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+}
+.best-section .best-btn a{
+    text-decoration: none;
+    font-size: 17px;
+    padding: 10px 20px;
+    color: black;
+    background-color: #ffc61a;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 5px;
+    font-family: 'Bebas Neue', cursive;
+   
+}
+.best-section .best-btn a:hover{
+    color: #ffc61a;
+    background-color: black;
+    outline: 1px solid #ffc61a;
+    transition: .5s all ease;
+}
+
+/*=======================================
+  best section end here 
+=======================================*/
+
+
+
+
+
+
+
+
+/*=======================================
+  download section start here 
+=======================================*/
+.download-section{
+    width: 100%;
+    height: 670px;
+    padding: 40px 120px;
+  
+}
+.download-section .download-head{
+    text-align: center;
+    padding: 20px 0px;
+}
+.download-section .download-head h2{
+    color: #ffc61a;
+    font-size: 27px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.download-section .download-head h1{
+    color: black;
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.download-section .download-body{
+    padding: 30px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.download-section .download-body .download-info{
+    width: 45%;
+}
+.download-section .download-body .download-info h1{
+    font-size: 23px;
+    font-weight: 780;
+    text-transform: capitalize;
+    font-family: 'Lato', sans-serif;
+
+}
+.download-section .download-body .download-info p{
+    
+    padding: 20px 0px;
+}
+.download-section .download-body .download-info span{
+    
+    padding: 40px 0px;
+    padding-right: 20px;
+}
+.download-section .download-body .download-img{
+    width: 40%;
+}
+
+/*=======================================
+  download section end here 
+=======================================*/
+
+
+
+
+
+
+
+
+/*=======================================
+  testimonial section start here 
+=======================================*/
+.testimonial-section{
+    width: 100%;
+    height: auto;
+    padding: 50px 30px;
+    background: url('img/testimonialpng.png') no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.testimonial-section .testimonial-head{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0px;
+}
+.testimonial-section .testimonial-head h1{
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ffc61a;
+    font-family: 'Lato', sans-serif;
+
+}
+.testimonial-section .testimonial-head h2{
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+}
+.testimonial-section .testimonial-body{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
+.testimonial-section .testimonial-body .testi-items{
+    margin: 5px 20px;
+    width: 420px;
+    height: 230px;
+    padding: 15px 15px;
+    background-color: black;
+    border-radius: 30px;
+}
+.testimonial-section .testimonial-body p{
+    color: white;
+    padding: 20px 20px;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
+.testimonial-section .testimonial-body img{
+    float: left;
+    padding: 10px 20px;
+    width: 110px;
+}
+.testimonial-section .testimonial-body .testi-text{
+    padding-top: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+}
+.testimonial-section .testimonial-body .testi-text h1{
+    color: #ffc61a;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+}
+
+.testimonial-section .testimonial-body .testi-text h3{
+    text-transform: uppercase;
+}
+
+/*=======================================
+  testimonial section end here 
+=======================================*/
+
+
+
+
+
+
+
+
+/*=======================================
+  call section start here 
+=======================================*/
+.call-section{
+    width: 100%;
+    height: auto;
+    background-color: #ffc61a;
+    padding: 40px 80px;
+    text-align: center;
+}
+.call-section h2{
+    font-size: 35px ;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    
+}
+.call-section h1{
+    font-size: 55px ;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    padding: 15px 0px;
+}
+/*=======================================
+  call section end here 
+=======================================*/
+
+
+
+
+
+
+
+/*=======================================
+  footer section start here 
+=======================================*/
+footer{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    padding: 40px 90px;
+}
+.footer-items{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.footer-items .footer-item{
+    width: 27%;
+}
+.footer-items .footer-item h1{
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    padding-bottom: 35px;
+    text-transform: uppercase;
+    border-bottom: 5px solid #ffc61a;
+    font-family: 'Lato', sans-serif;
+}
+.footer-items .footer-item p{
+    color: white;
+    padding: 35px 0px;
+
+}
+.footer-items .footer-item span{
+    color: #ffc61a;
+    padding: 10px 15px;
+    
+}
+
+.footer-items .footer-item2{
+    width: 27%;
+}
+.footer-items .footer-item2 h1{
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    padding-bottom: 35px;
+    text-transform: uppercase;
+    border-bottom: 5px solid #ffc61a;
+    font-family: 'Lato', sans-serif;
+}
+.footer-items .footer-item2 p{
+    color: white;
+    padding: 40px 0px;
+   
+
+}
+.footer-items .footer-item2  .android,.ios{
+    padding: 0;
+    margin: 0;
+    display: block;
+   
+}
+.footer-items .footer-item2 span{
+    font-size: 15px;
+}
+.footer-items .footer-item2  .android span{
+    color: #ffc61a;
+    font-size: 16px;
+    font-weight: bold;
+}
+.footer-items .footer-item2  .android span i{
+    padding-left: 15px;
+    color: white;
+}
+.footer-items .footer-item2 .ios span{
+    color: #ffc61a;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 0px;
+}
+.footer-items .footer-item2 .ios span i{
+    padding-left: 15px;
+    color: white;
+}
+.footer-items .footer-item3{
+    width: 27%;
+}
+
+.footer-items .footer-item3 h1{
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    padding-bottom: 35px;
+    text-transform: uppercase;
+    border-bottom: 5px solid #ffc61a;
+    font-family: 'Lato', sans-serif;
+}
+.footer-items .footer-item3 span{
+    color: white;
+    display: block;
+    font-size: 16px;
+    padding: 10px 0px;
+
+}
+.footer-items .footer-item3 span i{
+    padding-right: 20px;
+}
+
+.footer-items .footer-item3 .foot-cont{
+    padding-top: 35px;
+}
+/*=======================================
+footer section end here 
+=======================================*/
+
+
+
+
+/*=================================
+ footer last 
+ ================================*/
+.copy-right{
+    padding: 20px 0px 10px 0px;
+    text-align: center;
+    color: white;
+}
+.copy-right a{
+    text-decoration: none;
+    color: yellow;
+}
+
+/*=================================
+ footer last end
+ ================================*/
+
+
+ /* thank you */

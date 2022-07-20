@@ -1,0 +1,400 @@
+
+
+
+/*===========================
+ navbar section start here  
+ ============================*/
+@media screen and (max-width:910px) {
+    nav .nav-items{
+        display: block;
+        position: fixed;
+        top: 0;
+        left: -100%;
+        width: 70%;
+        height: 100%;
+        background-color: black;
+        z-index: 9999;
+        padding: 50px 20px;
+        text-align: center;
+    }
+    nav .nav-items li{
+        display: block;
+        padding: 10px 0px;
+    }
+    nav .nav-items li a{
+        display: block;
+    }
+   .nav-items.active{
+        left: 0;
+        transition: 0.3s linear;
+    }
+
+    /* mobile responsive */
+    .side-bar{
+        display: block;
+        margin-left: auto;
+        padding-right: 50px;
+    }
+
+}
+@media screen and (max-width:500px){
+    nav .logo img{
+        width: 70%;
+       
+    }
+}
+@media screen and (max-width:450px){
+    nav{
+        padding: 10px 30px;
+    }
+    
+    nav .logo{
+        padding: 30px 20px;
+       
+    }
+    .side-bar{
+        padding-right: 30px;
+    }
+}
+@media screen and (max-width:350px){
+    nav{
+        padding: 10px 10px;
+    }
+    
+    nav .logo{
+        padding: 30px 10px;
+       
+    }
+}
+/*===========================
+ navbar section end here  
+ ============================*/
+
+
+
+
+
+
+ /*===============================
+  home section start here 
+ ================================== */
+@media screen and (max-width:700px) {
+    .home{
+        height: auto;
+    }
+    
+}
+@media screen and (max-width:500px){
+
+.home-section .home-text h3{
+    font-size: 20px;
+}
+
+.home-section .home-text h1{
+    font-size: 35px;
+}
+
+.home-section .home-text h5{
+    font-size: 14px;
+    
+}
+
+}
+ /*===============================
+  home section end here 
+ ================================== */
+
+
+
+
+
+
+
+  /*===============================
+  form section start here 
+ ================================== */
+@media screen and (max-width:750px){
+    .form-section{
+        padding: 100px 90px;
+    }
+    
+    .form-section .form-info{
+        flex-basis: 100%;
+    }
+    .form-section .form{
+        padding-top: 20px;
+        flex-basis: 100%;
+    }
+}
+
+@media screen and (max-width:600px){
+    .form-section .form-info h2{
+        font-size: 20px;
+    }
+    .form-section .form-info h1{
+        font-size: 30px;
+    }
+
+}
+@media screen and (max-width:500px){
+    .form-section{
+        padding: 80px 20px;
+    }
+    .form-section .form img{
+        width: 100%;
+    }
+}
+ /*===============================
+  form section end here 
+ ================================== */
+
+
+
+
+
+
+
+ /*==================================
+  our trip section start here
+  ==================================  */
+@media screen and (max-width:900px){
+    .our-trip .trip{
+        margin: 40px 0px;
+        width: 45%;
+    }
+}
+@media screen and (max-width:700px){
+    .our-trip .trip{
+        margin: 40px 0px;
+        width: 85%;
+    }
+}
+@media screen and (max-width:500px){
+    .our-trip{
+        padding: 40px 30px;
+        
+    }
+    .our-trip .trip{
+        width: 100%;
+    }
+}
+ /*===============================
+  our trip section end here 
+ ================================== */
+
+
+
+
+
+
+
+
+ /*===============================
+  best trip section start here
+  ==============================  */
+@media screen and (max-width:900px){
+    .best-section .best-body{
+        width: 100%;
+    
+       
+    }
+}
+@media screen and (max-width:700px){
+    .best-section .best-body .best-items{
+        flex-basis: 50%;
+        
+    }
+    
+}
+@media screen and (max-width:600px){
+    .best-section .best-body .best-items{
+        flex-basis: 90%;
+        
+    }
+    .best-section .best-body .best-items{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .best-section .best-body .best-items img{
+        padding-left: 20px;
+    }
+    
+}
+@media screen and (max-width:500px){
+    .best-section .best-body .best-items{
+        flex-basis: 100%;
+        
+    }
+}
+ 
+ /*===============================
+  best trip section end here
+  ==============================  */
+
+
+
+
+
+
+
+ 
+ /*===============================
+  download  section start here
+  ==============================  */
+@media screen and (max-width:750px){
+
+    .download-section{
+       padding-bottom: 0px;
+        height: auto;
+     
+      
+    }
+    .download-section .download-body .download-info{
+        width: 80%;
+        
+    }
+    .download-section .download-body .download-img{
+        width: 80%;
+    }
+    .download-section .download-body .download-img img{
+        padding-top: 30px;
+    }
+    
+}
+@media screen and (max-width:500px){
+    .download-section{
+       padding: 40px 30px;
+       
+     }
+    .download-section .download-body .download-info{
+        width: 100%;
+        
+    }
+    .download-section .download-body .download-img{
+        width: 100%;
+    }
+    
+}
+ /*===============================
+  download  section end here
+  ==============================  */
+
+
+
+
+
+
+
+
+ /*===============================
+  testimonial section start here
+  ==============================  */
+@media screen and (max-width:450px){
+    .testimonial-section .testimonial-body{
+        width: 100%;
+    }
+    .testimonial-section .testimonial-body .testi-items{
+        margin: 0px 0px;
+        width: 100%;
+        height: auto;
+        margin: 5px 0px;
+        padding: 15px 0px;
+    }
+    
+}
+@media screen and (max-width:350px){
+    .testimonial-section{
+        padding: 50px 0px;
+       
+    }
+    .testimonial-section .testimonial-head h1{
+        font-size: 20px;
+  
+    
+    }
+    .testimonial-section .testimonial-head h2{
+        font-size: 30px;
+     
+    }
+}
+ /*===============================
+  testimonial  section end here
+  ==============================  */
+
+
+
+
+
+
+
+  /*=================================
+   call section start here
+   =================================  */
+  @media screen and (max-width:450px){
+    
+    .call-section h2{
+        font-size: 25px ;
+    }
+    .call-section h1{
+        font-size: 45px ;
+    }
+  }
+
+@media screen and (max-width:300px){
+    .call-section h2{
+        font-size: 20px;
+    }
+    .call-section h1{
+        font-size: 35px;
+    }
+}
+
+/*=================================
+   call section end here
+ =================================  */
+
+
+
+
+
+
+
+ /*===================================
+  footer section start here
+  ==================================  */
+
+@media screen and (max-width:850px){
+    .footer-items .footer-item{
+        width: 45%;
+    }
+    .footer-items .footer-item2{
+        width: 45%;
+    }
+    .footer-items .footer-item3{
+        width: 50%;
+        padding-top: 20px;
+    }
+}
+@media screen and (max-width:600px){
+    .footer-items .footer-item{
+        width: 100%;
+    }
+    .footer-items .footer-item2{
+        width: 100%;
+    }
+    .footer-items .footer-item3{
+        width: 100%;
+     
+    }
+}
+
+@media screen and (max-width:400px){
+    footer{
+      
+        padding: 40px 30px;
+    }
+}
+
+ /*===================================
+  footer section end here
+  ==================================  */
