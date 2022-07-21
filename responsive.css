@@ -34,6 +34,8 @@
         display: block;
         margin-left: auto;
         padding-right: 50px;
+        z-index: 99999;
+        margin-top: -20px;
     }
 
 }
